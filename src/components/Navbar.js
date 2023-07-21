@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
   return (
@@ -23,6 +23,7 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
+        <div></div>
         </div>
   )
 }
